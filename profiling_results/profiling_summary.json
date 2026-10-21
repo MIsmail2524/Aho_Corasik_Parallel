@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-05-10T19:55:45.498315",
+  "profiling_data": {
+    "aho_naive_gprof": {
+      "gprof": {
+        "success": true,
+        "top_functions": []
+      },
+      "perf": {
+        "success": false
+      }
+    },
+    "aho_seq_gprof": {
+      "gprof": {
+        "success": true,
+        "top_functions": []
+      },
+      "perf": {
+        "success": false
+      }
+    },
+    "aho_simd_gprof": {
+      "gprof": {
+        "success": true,
+        "top_functions": []
+      },
+      "perf": {
+        "success": false
+      }
+    },
+    "aho_omp_gprof": {
+      "gprof": {
+        "success": true,
+        "top_functions": []
+      },
+      "perf": {
+        "success": false
+      }
+    },
+    "aho_openmp_simd_gprof": {
+      "gprof": {
+        "success": true,
+        "top_functions": []
+      },
+      "perf": {
+        "success": false
+      }
+    }
+  }
+}

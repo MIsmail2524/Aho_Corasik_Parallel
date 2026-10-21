@@ -1,0 +1,452 @@
+[
+  {
+    "implementation": "Naive",
+    "threads": 1,
+    "dataset_mb": 10,
+    "time_ms": 4964.73,
+    "matches": 2760726,
+    "throughput": 2.26194,
+    "speedup": 1.0,
+    "efficiency": 100.0
+  },
+  {
+    "implementation": "Naive",
+    "threads": 1,
+    "dataset_mb": 100,
+    "time_ms": 49337.8,
+    "matches": 27547677,
+    "throughput": 2.2712,
+    "speedup": 1.0,
+    "efficiency": 100.0
+  },
+  {
+    "implementation": "Naive",
+    "threads": 1,
+    "dataset_mb": 500,
+    "time_ms": 265475.0,
+    "matches": 137789272,
+    "throughput": 2.11126,
+    "speedup": 1.0,
+    "efficiency": 100.0
+  },
+  {
+    "implementation": "Sequential",
+    "threads": 1,
+    "dataset_mb": 10,
+    "time_ms": 252.821,
+    "matches": 2760726,
+    "throughput": 44.4184,
+    "speedup": 19.637332341854513,
+    "efficiency": 1963.7332341854512
+  },
+  {
+    "implementation": "Sequential",
+    "threads": 1,
+    "dataset_mb": 100,
+    "time_ms": 3264.77,
+    "matches": 27547677,
+    "throughput": 34.3228,
+    "speedup": 15.112182481461176,
+    "efficiency": 1511.2182481461175
+  },
+  {
+    "implementation": "Sequential",
+    "threads": 1,
+    "dataset_mb": 500,
+    "time_ms": 21509.9,
+    "matches": 137789272,
+    "throughput": 26.0572,
+    "speedup": 12.341991362116978,
+    "efficiency": 1234.1991362116978
+  },
+  {
+    "implementation": "SIMD",
+    "threads": 1,
+    "dataset_mb": 10,
+    "time_ms": 485.615,
+    "matches": 2760726,
+    "throughput": 23.1251,
+    "speedup": 10.223592763814954,
+    "efficiency": 1022.3592763814954
+  },
+  {
+    "implementation": "SIMD",
+    "threads": 1,
+    "dataset_mb": 100,
+    "time_ms": 6322.76,
+    "matches": 27547677,
+    "throughput": 17.7227,
+    "speedup": 7.803206194763047,
+    "efficiency": 780.3206194763047
+  },
+  {
+    "implementation": "SIMD",
+    "threads": 1,
+    "dataset_mb": 500,
+    "time_ms": 31429.5,
+    "matches": 137789272,
+    "throughput": 17.8332,
+    "speedup": 8.44668225711513,
+    "efficiency": 844.6682257115131
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 1,
+    "dataset_mb": 10,
+    "time_ms": 279.055,
+    "matches": 2760726,
+    "throughput": 40.2426,
+    "speedup": 17.791223952267472,
+    "efficiency": 1779.1223952267474
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 1,
+    "dataset_mb": 100,
+    "time_ms": 3441.83,
+    "matches": 27547677,
+    "throughput": 32.5571,
+    "speedup": 14.33475796306035,
+    "efficiency": 1433.475796306035
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 1,
+    "dataset_mb": 500,
+    "time_ms": 21823.5,
+    "matches": 137789272,
+    "throughput": 25.6827,
+    "speedup": 12.164639035901665,
+    "efficiency": 1216.4639035901664
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 2,
+    "dataset_mb": 10,
+    "time_ms": 292.283,
+    "matches": 2760726,
+    "throughput": 38.4215,
+    "speedup": 16.98603750474711,
+    "efficiency": 849.3018752373555
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 2,
+    "dataset_mb": 100,
+    "time_ms": 3875.32,
+    "matches": 27547677,
+    "throughput": 28.9153,
+    "speedup": 12.731284126214094,
+    "efficiency": 636.5642063107047
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 2,
+    "dataset_mb": 500,
+    "time_ms": 19822.0,
+    "matches": 137789272,
+    "throughput": 28.276,
+    "speedup": 13.392947230350115,
+    "efficiency": 669.6473615175057
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 4,
+    "dataset_mb": 10,
+    "time_ms": 260.384,
+    "matches": 2760726,
+    "throughput": 43.1283,
+    "speedup": 19.06695495883003,
+    "efficiency": 476.6738739707508
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 4,
+    "dataset_mb": 100,
+    "time_ms": 3265.83,
+    "matches": 27547677,
+    "throughput": 34.3117,
+    "speedup": 15.107277476169918,
+    "efficiency": 377.68193690424795
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 4,
+    "dataset_mb": 500,
+    "time_ms": 20755.0,
+    "matches": 137789272,
+    "throughput": 27.0049,
+    "speedup": 12.790893760539628,
+    "efficiency": 319.7723440134907
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 8,
+    "dataset_mb": 10,
+    "time_ms": 289.898,
+    "matches": 2760726,
+    "throughput": 38.7376,
+    "speedup": 17.125782171660376,
+    "efficiency": 214.0722771457547
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 8,
+    "dataset_mb": 100,
+    "time_ms": 3779.35,
+    "matches": 27547677,
+    "throughput": 29.6496,
+    "speedup": 13.054572876288251,
+    "efficiency": 163.18216095360313
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 8,
+    "dataset_mb": 500,
+    "time_ms": 18173.8,
+    "matches": 137789272,
+    "throughput": 30.8403,
+    "speedup": 14.607566937019227,
+    "efficiency": 182.59458671274032
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 16,
+    "dataset_mb": 10,
+    "time_ms": 360.369,
+    "matches": 2760726,
+    "throughput": 31.1623,
+    "speedup": 13.776795451329052,
+    "efficiency": 86.10497157080658
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 16,
+    "dataset_mb": 100,
+    "time_ms": 4091.85,
+    "matches": 27547677,
+    "throughput": 27.3852,
+    "speedup": 12.057577868201426,
+    "efficiency": 75.35986167625892
+  },
+  {
+    "implementation": "OpenMP",
+    "threads": 16,
+    "dataset_mb": 500,
+    "time_ms": 19128.3,
+    "matches": 137789272,
+    "throughput": 29.3015,
+    "speedup": 13.878651004009766,
+    "efficiency": 86.74156877506104
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 1,
+    "dataset_mb": 10,
+    "time_ms": 250.23,
+    "matches": 2760726,
+    "throughput": 44.8785,
+    "speedup": 19.8406665867402,
+    "efficiency": 1984.06665867402
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 1,
+    "dataset_mb": 100,
+    "time_ms": 3060.13,
+    "matches": 27547677,
+    "throughput": 36.618,
+    "speedup": 16.122779097620036,
+    "efficiency": 1612.2779097620037
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 1,
+    "dataset_mb": 500,
+    "time_ms": 18883.9,
+    "matches": 137789272,
+    "throughput": 29.6806,
+    "speedup": 14.058271861215108,
+    "efficiency": 1405.8271861215107
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 2,
+    "dataset_mb": 10,
+    "time_ms": 249.94,
+    "matches": 2760726,
+    "throughput": 44.9306,
+    "speedup": 19.863687284948387,
+    "efficiency": 993.1843642474194
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 2,
+    "dataset_mb": 100,
+    "time_ms": 3664.35,
+    "matches": 27547677,
+    "throughput": 30.5801,
+    "speedup": 13.464270607338275,
+    "efficiency": 673.2135303669137
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 2,
+    "dataset_mb": 500,
+    "time_ms": 19288.5,
+    "matches": 137789272,
+    "throughput": 29.0581,
+    "speedup": 13.763382326256577,
+    "efficiency": 688.1691163128289
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 4,
+    "dataset_mb": 10,
+    "time_ms": 232.17,
+    "matches": 2760726,
+    "throughput": 48.3694,
+    "speedup": 21.38402894430805,
+    "efficiency": 534.6007236077012
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 4,
+    "dataset_mb": 100,
+    "time_ms": 4003.0,
+    "matches": 27547677,
+    "throughput": 27.993,
+    "speedup": 12.32520609542843,
+    "efficiency": 308.13015238571074
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 4,
+    "dataset_mb": 500,
+    "time_ms": 18408.4,
+    "matches": 137789272,
+    "throughput": 30.4474,
+    "speedup": 14.42140544534017,
+    "efficiency": 360.53513613350424
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 8,
+    "dataset_mb": 10,
+    "time_ms": 280.645,
+    "matches": 2760726,
+    "throughput": 40.0147,
+    "speedup": 17.690427408291615,
+    "efficiency": 221.1303426036452
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 8,
+    "dataset_mb": 100,
+    "time_ms": 4056.37,
+    "matches": 27547677,
+    "throughput": 27.6247,
+    "speedup": 12.163042326020557,
+    "efficiency": 152.03802907525696
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 8,
+    "dataset_mb": 500,
+    "time_ms": 17296.0,
+    "matches": 137789272,
+    "throughput": 32.4056,
+    "speedup": 15.348924606845513,
+    "efficiency": 191.8615575855689
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 16,
+    "dataset_mb": 10,
+    "time_ms": 248.822,
+    "matches": 2760726,
+    "throughput": 45.1324,
+    "speedup": 19.952938245010486,
+    "efficiency": 124.70586403131554
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 16,
+    "dataset_mb": 100,
+    "time_ms": 3511.94,
+    "matches": 27547677,
+    "throughput": 31.9072,
+    "speedup": 14.04858852941679,
+    "efficiency": 87.80367830885494
+  },
+  {
+    "implementation": "OpenMP+SIMD",
+    "threads": 16,
+    "dataset_mb": 500,
+    "time_ms": 17101.2,
+    "matches": 137789272,
+    "throughput": 32.7747,
+    "speedup": 15.523764414193156,
+    "efficiency": 97.02352758870722
+  },
+  {
+    "implementation": "MPI",
+    "threads": 1,
+    "dataset_mb": 10,
+    "time_ms": 355.969,
+    "matches": 2760726,
+    "throughput": 31.5475,
+    "speedup": 13.947085279897967,
+    "efficiency": 1394.7085279897967
+  },
+  {
+    "implementation": "MPI",
+    "threads": 1,
+    "dataset_mb": 100,
+    "time_ms": 4535.19,
+    "matches": 27547677,
+    "throughput": 24.7082,
+    "speedup": 10.878882692897102,
+    "efficiency": 1087.8882692897103
+  },
+  {
+    "implementation": "MPI",
+    "threads": 2,
+    "dataset_mb": 10,
+    "time_ms": 377.205,
+    "matches": 2760726,
+    "throughput": 29.7714,
+    "speedup": 13.161888097983855,
+    "efficiency": 658.0944048991928
+  },
+  {
+    "implementation": "MPI",
+    "threads": 2,
+    "dataset_mb": 100,
+    "time_ms": 4548.03,
+    "matches": 27547677,
+    "throughput": 24.6384,
+    "speedup": 10.848169427202548,
+    "efficiency": 542.4084713601274
+  },
+  {
+    "implementation": "MPI",
+    "threads": 4,
+    "dataset_mb": 10,
+    "time_ms": 283.232,
+    "matches": 2760726,
+    "throughput": 39.6492,
+    "speedup": 17.52884561066546,
+    "efficiency": 438.2211402666365
+  },
+  {
+    "implementation": "MPI",
+    "threads": 4,
+    "dataset_mb": 100,
+    "time_ms": 5211.96,
+    "matches": 27547677,
+    "throughput": 21.4998,
+    "speedup": 9.466266049624327,
+    "efficiency": 236.65665124060817
+  }
+]

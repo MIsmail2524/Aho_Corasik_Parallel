@@ -1,0 +1,31 @@
+
+============================================================================
+ROOFLINE MODEL MEASUREMENT RESULTS
+============================================================================
+Timestamp: 2026-05-10 19:57:22
+
+BANDWIDTH MEASUREMENTS
+──────────────────────────────────────────────────────────────────────────
+Data Size:  10 MB | Time:     2.27 ms | Bandwidth:   13.51 GB/s
+Data Size:  50 MB | Time:     8.70 ms | Bandwidth:   17.66 GB/s
+Data Size: 100 MB | Time:    18.37 ms | Bandwidth:   16.72 GB/s
+
+COMPUTE PERFORMANCE (FMA Operations)
+──────────────────────────────────────────────────────────────────────────
+Operations:  10000000 | Time:    13.18 ms | GFLOPS:    1.52
+Operations:  50000000 | Time:    73.15 ms | GFLOPS:    1.37
+Operations: 100000000 | Time:   136.06 ms | GFLOPS:    1.47
+
+ROOFLINE MODEL PARAMETERS
+──────────────────────────────────────────────────────────────────────────
+Peak Bandwidth:  16.88 GB/s
+Peak Compute:    1.53 GFLOPS
+Ridge Point:     0.09 FLOPS/byte
+
+INTERPRETATION:
+──────────────────────────────────────────────────────────────────────────
+- Applications with intensity < ridge point are MEMORY-BOUND
+- Applications with intensity > ridge point are COMPUTE-BOUND
+- Pattern matching: ~1-10 ops/byte → COMPUTE-BOUND
+
+============================================================================
