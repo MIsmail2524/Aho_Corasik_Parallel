@@ -1,0 +1,16 @@
+# large generated datasets (regenerate with scripts/generate_data.py)
+inputs/text_100MB.txt
+inputs/text_500MB.txt
+scripts/inputs/
+
+# build outputs
+aho_naive
+aho_seq
+aho_simd
+aho_omp
+aho_openmp_simd
+aho_mpi
+roofline_measurement
+*_gprof
+*.o
+gmon.out
