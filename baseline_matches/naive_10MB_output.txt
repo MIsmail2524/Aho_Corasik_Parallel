@@ -1,0 +1,19 @@
+
+=== Naive Multi-pattern Search ===
+Text size : 11 MB (11775431 bytes)
+Keywords  : 200
+Time      : 9954.72 ms
+Matches   : 2760726
+Throughput: 1.1281 MB/s
+
+First 10 matches:
+  Keyword 'keyword4' at positions 0-7
+  Keyword 'keyword45' at positions 0-8
+  Keyword 'keyword9' at positions 10-17
+  Keyword 'keyword92' at positions 10-18
+  Keyword 'keyword1' at positions 20-27
+  Keyword 'keyword10' at positions 20-28
+  Keyword 'keyword101' at positions 20-29
+  Keyword 'keyword1' at positions 31-38
+  Keyword 'keyword1' at positions 40-47
+  Keyword 'keyword17' at positions 40-48
